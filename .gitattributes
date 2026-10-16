@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.pt binary
+
+# Generated evidence is committed byte-for-byte so SHA256SUMS remains valid.
+out/evidence/** binary
